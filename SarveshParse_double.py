@@ -32,6 +32,7 @@ class TxtProcessor():
             else:
                 print("Error: File {} doesn't exists".format(OpFN))
         return self.FileNames
+    #
 
     def CreateOpFile(self):
         '''Read each file from list, search for required lines, save the numbers in it to
