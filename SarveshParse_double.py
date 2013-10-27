@@ -3,6 +3,7 @@ import collections
 import os
 
 def main():
+	'''Main'''
     inpfile = 'parse_parameters'
     obj = TxtProcessor(inpfile)
     FileNames = obj.ReadInpFile()
